@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Ailerons';
+    src: url('Ailerons.ttf');
+}
+
+#body {
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	overflow-x: hidden;
+}
+
+.navbar {
+	background-color: #292D2F;
+	font-color: white;
+	margin-bottom: 0px;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+	color: white !important;
+	text-transform: uppercase;
+}
+
+#nav {
+	background-color: #292D2F;
+}
+
+.navbar, .navbar-inverse, .navbar-static-top{
+	background-color: black;
+}
+
+.navbar, .navbar-inverse, .navbar-static-top {
+	font-family: 'Lato', sans-serif;
+}
+/*======== Header ========*/
+#header
+	{
+		position: relative;
+		margin: 0;
+		background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),url('../images/banner/kicsbanner.png');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		padding: 16em 0 16em 0;
+		text-align: center;
+		color: #fff;
+		border: 2px groove black;
+		height: 100%;
+	}
+	
+h1 {
+	font-family: 'Ailerons';
+}
+
+#header header h1 
+{
+	font-size: 8em;
+	line-height: 100%;
+	font-family: "Ailerons";
+	overflow: hidden;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#header header p
+{
+	margin-top: 1.25em;
+	font-weight: 100;
+	padding: 0;
+	font-size: 2.25em;
+	line-height: 1.5em;
+	/**/
+}
+
+
+.thumbnail img {
+	width: 100%;
+	height: 33%;
+}
+
+.caption h4 {
+	font-size: 16px;
+}
+
+/*======== Content ========*/
+#content {
+	background-color: #eee;
+	margin: -40px auto 0px auto;
+}
+
+#content-grid {
+	background-color: #eee;
+}
+
+#content h2 
+{
+	font-size: 3.25em;
+	line-height: 1.25em;
+	margin-bottom: 0px;
+	
+	/*padding: 20px;*/
+}
+.bottom-buffer {
+	margin-bottom: 30px;
+}
+.caption {
+	width: 100%;
+}
+/*===== About ==========================*/
+.about, h1, h2, p {
+	position: relative;
+	margin: 20px;
+}
+/*======================================*/
+
+
+
+
+
+/*===== Concept ========================*/
+.concept {
+	background-color: #F7F7F7;
+	padding: 60px 0px 40px 0px;
+}
+.history, .fabric {
+	padding: 40px 0px 40px 0px;
+}
+.craftsmanship {
+	padding: 40px 0px 40px 0px;
+	background-color: #F7F7F7;
+}
+.concept-text {
+	font-size: 1em;
+}
+.concept, .history, .fabric, .craftsmanship {
+	text-align: center;
+}
+.history img, .concept img, .fabric img, .craftsmanship img {
+	width: 100%;
+	border: 1px groove #292D2F;
+	border-radius: 10px;
+}
+/*=====================================*/
+
+
+
+
+/*===== Banner ========================*/
+.banner-text {
+	text-align: center;
+	font-size: 2em;
+}
+
+.banner {
+	background-color: #F7F7F5;
+	margin-bottom: 20px;
+	border-top: 1px groove #292D2F;
+	border-bottom: 1px groove #292D2F;
+	overflow-x:hidden;
+}
+/*====================================*/
+
+
+
+
+
+/*===== Products =====================*/
+.product {
+	background-color: #F7F7F7;
+}
+
+.contact h1 {
+	text-align: center;
+}
+
+.contact button {
+	float: right;
+}
+/*====================================*/
+
+
+
+
+
+/*===== Goods ========================*/
+.goods h4, .goods p {
+	text-align: center;
+}
+/*====================================*/
+
+
+
+
+
+/*===== Products =====================*/
+.product {
+	margin-top: -20px;
+	padding-bottom: 20px;
+}
+
+.product-desc p {
+	text-align: left;
+}
+
+.product img {
+	margin: 0px auto;
+}
+/*====================================*/
+
+
+
+
+
+/*===== Footer =======================*/
+.footer {
+	padding-top: 20px;
+	background-color: #292D2F;
+}
+
+.footer p, .copyright p, .footer a {
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
+
+.footer h2 {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid white;
+}
+/*====================================*/
+
+
+
+
+
+/*===== Copyright ===================*/
+.copyright {
+	overflow-x:hidden;
+	background-color: #292D2F;
+}
+/*===================================*/
