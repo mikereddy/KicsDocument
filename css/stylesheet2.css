@@ -26,8 +26,8 @@ body {
 }
 
 .panel {
-	border: 5px solid #f7f7f7;
-	padding: 10px;
+	/*border: 5px solid #f7f7f7;*/
+	margin-top: 10px;
 	background: white;
 }
 
@@ -83,12 +83,52 @@ body {
 
 
 
+/* Inventory Banner */
+.inventory-banner {
+	position: relative;
+	margin-top: 20px;
+/*	background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+),url('../images/banner/KD-1.jpg');*/
+	background-size: cover;
+	/*background-position: center center;*/
+	background-repeat: no-repeat;
+	padding: 12em 0 12em 0;
+	height: 400px;
+}
+
+.inventory-banner-shirts {background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+),url('../images/banner/KD-1.jpg');}
+.inventory-banner-bottoms {background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+),url('../images/banner/KD-2.jpg');}
+.inventory-banner-jackets {background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+),url('../images/banner/KD-3.jpg');}
+
+
+.inventory-banner h1 {
+	font-size: 6em;
+	line-height: 100%;
+	font-family: "Ailerons";
+	overflow: hidden;
+	text-align: center;
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white !important;
+}
+
 
 
 
 /* Inventory */
-
-
 .item img {
 	height: 200px;
 	width: 100%;

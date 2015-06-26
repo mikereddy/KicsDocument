@@ -67,10 +67,20 @@
 		</div>
 
 	    <div class="clothes" ng-controller="MainController">
+	    	<div class="row">
+	    		<div class="inventory-banner inventory-banner-shirts">
+		    		<div class="small-12 columns">
+		    			<h1>Tops</h1>
+		    		</div>
+		    	</div>
+		    </div>
 		    <!-- Tops -->
 		    	<div class="row" data-equalizer> 
 		    		<a name="shirts"></a>
-		    		<h2>Tops</h2>
+
+
+
+
 
 		    		<div class="item" ng-repeat="shirt in shirts">
 		    			<div class="small-6 medium-3 columns panel" data-equalizer-watch>
@@ -82,10 +92,16 @@
 		    		</div>
 		    	</div>
 
+		    		    	<div class="row">
+	    		<div class="inventory-banner inventory-banner-bottoms">
+		    		<div class="small-12 columns">
+		    			<h1>Bottoms</h1>
+		    		</div>
+		    	</div>
+		    </div>
 	    	<!-- Bottoms -->
 		    	<div class="row" data-equalizer>
 		    		<a name="pants"></a>
-		    		<h2>Bottoms</h2>
 
 		    		<div class="item" ng-repeat="pant in pants">
 		    			<div class="small-6 medium-3 columns panel" data-equalizer-watch>
@@ -97,10 +113,17 @@
 		    		</div>
 		    	</div>
 
+		    		    	<div class="row">
+	    		<div class="inventory-banner inventory-banner-jackets">
+		    		<div class="small-12 columns">
+		    			<h1>Jackets</h1>
+		    		</div>
+		    	</div>
+		    </div>
 		    <!-- Jackets -->
 		    	<div class="row" data-equalizer>
 		    		<a name="jackets"></a>
-		    		<h2>Jackets</h2>
+
 		    		<div class="item" ng-repeat="jacket in jackets">
 		    			<div class="small-6 medium-3 columns panel" data-equalizer-watch>
 		    				<img ng-src="{{jacket.image}}" </img>
