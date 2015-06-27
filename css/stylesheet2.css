@@ -29,6 +29,10 @@ body {
 	text-transform: uppercase;
 }
 
+.tab-bar-section.right {
+	text-align: right;
+}
+
 .tab-bar-section i {
 	color: white !important;
 }
