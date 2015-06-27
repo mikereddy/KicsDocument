@@ -29,6 +29,9 @@ body {
 	text-transform: uppercase;
 }
 
+.tab-bar-section i {
+	color: white !important;
+}
 
 
 /************************************************************/
