@@ -1,8 +1,6 @@
 <html lang="en">
 	<head>
 
-		<!-- Master -->
-
 		<!-- Exciting Things -->
 		<title>Kics Document</title>
 		<meta charset="utf-8">
@@ -30,8 +28,16 @@
         		<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
       		</section>
 
-		      <section class="middle tab-bar-section">
-		        <h1 class="title">Kics Document.</h1>
+		      <section class="right tab-bar-section">
+						<a href="http://www.facebook.com">
+							<i class="fi-social-facebook"></i>
+						</a>
+						<a href="http://www.twitter.com">
+							<i class="fi-social-twitter"></i>
+						</a>
+						<a href="http://www.tumblr.com">
+							<i class="fi-social-tumblr"></i>
+						</a>
 		      </section>
 				</nav>
 
@@ -52,7 +58,11 @@
  		<!-- Banner -->
    	<section id="header">
 			<header>
-				<h1>Kics Document</h1>
+				<h1>Kics Document.</h1>
+				<img src="images/banner/KicsDocument-1.jpg" />
+				<img src="images/banner/KicsDocument-2.jpg" />
+				<img src="images/banner/KicsDocument-3.jpg" />
+				<img src="images/banner/KicsDocument-4.jpg" />
 			</header>
 		</section>
 
@@ -69,10 +79,20 @@
 		</div>
 
 	    <div class="clothes" ng-controller="MainController">
+	    	<div class="row">
+	    		<div class="inventory-banner inventory-banner-shirts">
+		    		<div class="small-12 columns">
+		    			<h1>Tops</h1>
+		    		</div>
+		    	</div>
+		    </div>
 		    <!-- Tops -->
 		    	<div class="row" data-equalizer> 
 		    		<a name="shirts"></a>
-		    		<h2>Tops</h2>
+
+
+
+
 
 		    		<div class="item" ng-repeat="shirt in shirts">
 		    			<div class="small-6 medium-3 columns panel" data-equalizer-watch>
@@ -84,10 +104,16 @@
 		    		</div>
 		    	</div>
 
+		    		    	<div class="row">
+	    		<div class="inventory-banner inventory-banner-bottoms">
+		    		<div class="small-12 columns">
+		    			<h1>Bottoms</h1>
+		    		</div>
+		    	</div>
+		    </div>
 	    	<!-- Bottoms -->
 		    	<div class="row" data-equalizer>
 		    		<a name="pants"></a>
-		    		<h2>Bottoms</h2>
 
 		    		<div class="item" ng-repeat="pant in pants">
 		    			<div class="small-6 medium-3 columns panel" data-equalizer-watch>
@@ -99,10 +125,19 @@
 		    		</div>
 		    	</div>
 
-		    <!-- Jackets -->
+
+		    <!-- Jacket banner image with jacket title. -->
+			    <div class="row">
+		    		<div class="inventory-banner inventory-banner-jackets">
+			    		<div class="small-12 columns">
+			    			<h1>Jackets</h1>
+			    		</div>
+			    	</div>
+			    </div>
+
+		    <!-- Jackets inventory. -->
 		    	<div class="row" data-equalizer>
 		    		<a name="jackets"></a>
-		    		<h2>Jackets</h2>
 		    		<div class="item" ng-repeat="jacket in jackets">
 		    			<div class="small-6 medium-3 columns panel" data-equalizer-watch>
 		    				<img ng-src="{{jacket.image}}" </img>
