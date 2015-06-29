@@ -44,11 +44,6 @@ body {
 #header {
 	position: relative;
 	margin: 0;
-/*	background-image: 
-		linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)),
-        url('../images/banner/KicsDocument-1.jpg');*/
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -59,15 +54,15 @@ body {
 	}
 
 #header h1 {
-	font-size: 6em;
-	line-height: 100%;
+	font-size: 5em;
 	font-family: "Ailerons";
-	overflow: hidden;
 	text-align: center;
-	position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+/* 	position: relative;*/
+ 	margin: 0;
+	/*top: 75%;*/
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     color: white !important;
     z-index: 100;
 }
@@ -194,10 +189,11 @@ body {
 	font-family: "Ailerons";
 	overflow: hidden;
 	text-align: center;
-	position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
     color: white !important;
 }
 
